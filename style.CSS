@@ -1,13 +1,24 @@
 .foto
 {border: 1px solid #505050;
-border-radius: 50px;}
+border-radius: 50px ;}
 
 body 
-{background: rgb(247, 229, 229);}
+{background: rgb(247, 229, 229);
+font-family: Verdana;
+max-width: 900px;
+margin: auto;}
 
 
 #title, .subtitle, .post_title{ 
 color: rgb(28, 28, 29)}
+
+#title
+{font-size: 40px;
+text-transform: uppercase;}
+
+a
+{text-decoration: line-through;
+color: #505050;}
 
 .post_title 
 {font-size: 16px;
@@ -24,10 +35,20 @@ border-radius: 15px;}
 
 .post_content
 {margin: 0;
-margin-bottom: 15px;}
+margin-bottom: 15px;
+text-transform: capitalize;
+text-align: center  ;}
+
 
 
 .post_img
-{margin-bottom: 15px;}
+{margin-bottom: 15px;
+width: 100%;}
 
 
+.contacts_list
+{list-style-type: none;
+padding-left: 5px;}
+
+.contacts_list li a 
+{text-decoration: none;}
